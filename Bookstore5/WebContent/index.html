@@ -1,0 +1,162 @@
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<title>Online Bookstore</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="Assets/styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+                    <a href="index.html" class="logo">B6 Bookstore</a>
+					<nav id="nav">
+						<a href="#" class="left">My Account</a>
+						<a href="#" class="left">Search</a>
+						<a href="#" class="left">Log Out</a>
+                        <a href="#" class="right">My Cart</a>
+                        
+					</nav>
+				</div>
+			</header>
+        
+        
+        <!-- Form -->
+        <h1>Create Your Account</h1>
+        <div class="form1">
+          <form action="RegisterServlet" class="pure-form pure-form-aligned" method="POST" >
+              
+            <h3>Personal Info</h3>
+            <div class="pure-control-group">
+                <label for="fname">Name*</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Email*</label>
+                <input type="text" id="name" name="email" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Phone Number*</label>
+                <input type="text" id="name" name="phoneNumber" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Password*</label>
+                <input type="text" id="name" name="password" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Retype Password*</label>
+                <input type="text" id="name" name="password2" class="pure-input-rounded">
+            </div>
+              
+              
+            <h3>Payment Info</h3>
+            <div class="pure-control-group">
+                <label for="fname">Name on Card</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Card Number</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Expiration Date</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+              
+            
+            <h3>Shipping Info</h3>
+            <div class="pure-control-group">
+                <label for="fname">Address 1</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Address 2</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">Zip Code</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="fname">City</label>
+                <input type="text" id="name" name="name" class="pure-input-rounded">
+            </div>
+            <div class="pure-control-group">
+                <label for="country">State/Province</label>
+                <select id="country" name="country">
+                    <option value="null">Select a state:</option>
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DC">Washington D.C.</option>
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>
+                </select>
+            </div>
+            <div class="pure-control-group">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="null">Select a country:</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+            <div class="required-fields">
+                <p>*Required Fields</p>
+            </div>  
+            <div class="center">
+				<input type="submit" class = "button" value="Create Account"/> 
+            </div>
+              
+          </form>
+        </div>
+        
+    </body>
+</html>
